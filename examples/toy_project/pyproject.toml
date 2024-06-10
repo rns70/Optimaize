@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "toy_project"
+version = "0.1.0"
+description = ""
+authors = ["Rens van Dijk <rensvandijk2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "./toy_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^1.10.0"
+cython = "^3.0.8"
+# we accept all versions, because we do not want to break the user's environment
+pydantic = "*"
+pytest = "*"
+numpy = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest-dotenv = "^0.5.2"
+
+[tool.pytest.ini_options]
+env_files = [".env"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
