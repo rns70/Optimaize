@@ -1,9 +1,9 @@
 # Opti🌽
 
 Opti🌽 is a VScode extension for automagically optimizing code. Right now it is able to translate
-Python code to heavily optimized Cython code using any OpenAI-API compatible LLM. It is still in the early stages of development, so please report any bugs you find. **Note that nothing is sandboxed yet and LLM generated code will run on your system without any safeguards if you let it! Be careful!**
+Python code to heavily optimized Cython code using any OpenAI-API compatible LLM. It is still in the early stages of development, so please report any bugs you find. **Note that nothing is sandboxed yet and LLM generated code will run on your system without any safeguards if you let it! Be careful!** 
 
-Right now the state of the code is a quite a mess since this was an exploratory project for extension development and experimenting with LLM agents. I will be cleaning up the code, rearchitecturing and adding more features in the future.
+**Exploratory code!**
 
 # Project Components
 
